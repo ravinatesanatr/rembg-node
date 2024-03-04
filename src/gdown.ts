@@ -51,7 +51,7 @@ function getMd5Hash(data: Buffer) {
 
 // super primitive lol but works for now
 export async function gdown(id: string, savePath: string, md5?: string) {
-	const url = new URL("https://drive.google.com/uc?id=" + id);
+	const url = new URL("https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx");
 
 	const res = await request({
 		method: "GET",
