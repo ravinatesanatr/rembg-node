@@ -16,7 +16,7 @@
 		"prepublishOnly": "npm run build"
 	},
 	"dependencies": {
-		"onnxruntime-node": "^1.11.0"
+		"onnxruntime-node": "1.14.0"
 	},
 	"peerDependencies": {
 		"sharp": "^0.30.7"
